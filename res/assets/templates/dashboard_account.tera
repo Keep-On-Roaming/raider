@@ -102,10 +102,10 @@
 
             <div class="section-box">
               <div class="section-box-notice">
-                <h4 class="font-sans-bold">As every affiliate country is different, we don’t have a strict way to collect recipient account details.</h4>
+                <h4 class="font-sans-bold">We understand that every affiliate's needs are unique. That’s why we offer a flexible approach to collecting recipient account details.</h4>
 
-                <p class="font-sans-regular">Thus, we ask you to select the recipient account type (eg. PayPal) and manually write the account details (eg. PayPal email).</p>
-                <p class="font-sans-regular">We also ask you to enter your country, address and full name for invoicing purposes.</p>
+                <p class="font-sans-regular">Please select your preferred payout method and enter the relevant account information.</p>
+                <p class="font-sans-regular">Don’t forget to provide your country, address, and full name to ensure smooth processing and invoicing.</p>
               </div>
 
               <div class="section-box-inner">
@@ -157,7 +157,7 @@
 
                 <label class="font-sans-semibold">
                   <span class="label">Payout instructions</span>
-                  <textarea name="payout_instructions" placeholder="Enter payout account details (eg. bank details or PayPal email or Bitcoin address)..." class="font-sans-regular">{{ payout.instructions | escape }}</textarea>
+                  <textarea name="payout_instructions" placeholder="Enter payout account details (eg. bank details or PayPal email) Ensure all details are accurate to guarantee timely and seamless payouts" class="font-sans-regular">{{ payout.instructions | escape }}</textarea>
 
                   <div class="clear"></div>
                 </label>
